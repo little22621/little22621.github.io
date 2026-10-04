@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 900" fill="none">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#30466f"/><stop offset=".48" stop-color="#9b80a5"/><stop offset="1" stop-color="#f1a987"/></linearGradient>
+    <linearGradient id="road" x2="0" y2="1"><stop stop-color="#687a91"/><stop offset="1" stop-color="#243850"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ffe9ad" stop-opacity=".85"/><stop offset="1" stop-color="#ffcb9e" stop-opacity="0"/></radialGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1920v900H0z"/>
+  <circle cx="1470" cy="290" r="215" fill="url(#glow)"/>
+  <circle cx="1470" cy="290" r="73" fill="#ffe3ad" fill-opacity=".75"/>
+  <g fill="#fff" fill-opacity=".36">
+    <path d="M150 168c25-54 102-56 130-11 38-26 88-3 85 39 45 8 45 49-2 54H170c-54-4-65-57-20-82ZM800 102c20-39 77-41 98-8 29-18 66 2 63 34 36 8 33 41-6 45H814c-45-3-52-43-14-71Z"/>
+  </g>
+  <path fill="#474d70" d="m0 533 204-145 152 105 174-164 171 150 193-112 148 145 173-147 197 153 169-115 239 163v234H0z"/>
+  <path fill="#343c5d" d="m0 602 230-136 144 82 204-175 183 155 190-114 176 145 185-160 212 153 182-115 214 146v317H0z"/>
+  <g fill="#35475f">
+    <path d="M44 426h273v322H44zM359 492h163v256H359zM1432 443h198v305h-198zM1668 391h212v357h-212z"/>
+  </g>
+  <g fill="#f6c88f" fill-opacity=".8">
+    <path d="M79 469h32v44H79zM141 469h32v44h-32zM203 469h32v44h-32zM79 552h32v44H79zM141 552h32v44h-32zM203 552h32v44h-32z"/>
+    <path d="M391 527h25v38h-25zM456 527h25v38h-25zM1468 484h29v43h-29zM1530 484h29v43h-29zM1707 430h31v48h-31zM1780 430h31v48h-31zM1707 521h31v48h-31zM1780 521h31v48h-31z"/>
+  </g>
+  <path fill="#d29378" d="M0 682h1920v39H0z"/>
+  <path fill="url(#road)" d="M0 721h1920v179H0z"/>
+  <path stroke="#f9d09b" stroke-opacity=".65" stroke-width="8" d="M840 900 954 722M1092 900l-83-178"/>
+  <path stroke="#f7d4ab" stroke-opacity=".5" stroke-width="5" stroke-dasharray="42 40" d="M970 900v-42m0-37v-42m0-35v-24"/>
+  <path fill="#ffe0a8" fill-opacity=".6" d="M48 678h154v5H48zM1630 680h240v5h-240z"/>
+</svg>

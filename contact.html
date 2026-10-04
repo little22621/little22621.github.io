@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Little 22621 about a project, collaboration, or an idea.">
+  <meta name="theme-color" content="#071726">
+  <title>Contact Little 22621</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-contact">
+  <header class="site-header site-header--solid" data-header>
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Little 22621 home">
+        <span class="brand-mark" aria-hidden="true">l/</span>
+        <span class="brand-name">little<span>22621</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="menu-toggle__line"></span><span class="menu-toggle__line"></span><span class="menu-toggle__line"></span><span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-menu>
+        <a class="site-nav__link" href="index.html">Home</a>
+        <a class="site-nav__link" href="index.html#about">About</a>
+        <a class="site-nav__link site-nav__link--cta is-active" href="contact.html" aria-current="page">Contact <span aria-hidden="true">&nearr;</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="subhero" aria-labelledby="contact-title">
+      <img class="subhero__image" src="assets/hero-workspace.jpg" alt="A laptop with code on screen" fetchpriority="high">
+      <div class="subhero__veil" aria-hidden="true"></div>
+      <div class="shell subhero__content">
+        <p class="eyebrow eyebrow--light"><span class="eyebrow__dot"></span> Open line</p>
+        <h1 id="contact-title">Let's make<br><span>something useful.</span></h1>
+        <p>Have a project, question, or idea worth exploring? Leave a note.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" aria-labelledby="contact-form-title">
+      <div class="shell contact-grid">
+        <div class="contact-intro reveal">
+          <p class="eyebrow"><span class="eyebrow__dot"></span> Contact Little 22621</p>
+          <h2 id="contact-form-title">Have a question?<br><span>Say hello.</span></h2>
+          <p class="section-lead">Send a message directly to the Little 22621 inbox.</p>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" data-contact-form action="https://formspree.io/f/meaejnwj" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="New message from Little 22621">
+            <div class="form-field"><label for="contact-name">Name</label><input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Your name" required><span class="form-field__line" aria-hidden="true"></span></div>
+            <div class="form-field"><label for="contact-email">Email</label><input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><span class="form-field__line" aria-hidden="true"></span></div>
+            <div class="form-field"><label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="5" placeholder="What are you thinking about?" required></textarea><span class="form-field__line" aria-hidden="true"></span></div>
+            <button class="button button--dark button--submit" type="submit">Send message <span aria-hidden="true">&nearr;</span></button>
+            <p class="form-status" data-form-status role="status" aria-live="polite" hidden></p>
+          </form>
+          <p class="form-note">Your message will be sent securely through Formspree.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand"><a class="brand brand--footer" href="index.html"><span class="brand-mark" aria-hidden="true">l/</span><span class="brand-name">little<span>22621</span></span></a><p>A small corner for useful things.</p></div>
+      <div class="footer-column"><h2>Contact</h2><a href="#contact-form-title">Write a note <span aria-hidden="true">&nearr;</span></a></div>
+      <div class="footer-column"><h2>Quick links</h2><a href="index.html">Home</a><a href="index.html#about">About Little 22621</a></div>
+      <div class="footer-column"><h2>Explore</h2><a href="index.html#home">Back to the top</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="shell footer-bottom"><span>&copy; <span data-year></span> Little 22621. All rights reserved.</span><a class="back-to-top" href="#contact-title">Back to top <span aria-hidden="true">&uarr;</span></a></div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

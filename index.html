@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Little 22621 — a personal corner for experiments, useful tools, and ideas.">
+  <meta name="theme-color" content="#071726">
+  <title>Little 22621 | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-home">
+  <header class="site-header" data-header>
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Little 22621 home">
+        <span class="brand-mark" aria-hidden="true">l/</span>
+        <span class="brand-name">little<span>22621</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-menu>
+        <a class="site-nav__link is-active" href="index.html" aria-current="page">Home</a>
+        <a class="site-nav__link" href="#about">About</a>
+        <a class="site-nav__link site-nav__link--cta" href="contact.html">Contact <span aria-hidden="true">&nearr;</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero--anime" id="home" aria-labelledby="hero-title" data-slider>
+      <div class="hero__slides">
+        <article class="hero__slide is-active" data-slide aria-hidden="false">
+          <img class="hero__image hero__image--cover" src="assets/hatsune-miku-cover.png" alt="Hatsune Miku performing in a bright futuristic city">
+          <div class="hero__veil" aria-hidden="true"></div>
+          <div class="shell hero__content hero__content--center">
+            <h1 class="hero__identity-title" id="hero-title">Little 22621</h1>
+            <p class="hero__lead hero__identity-subtitle">also know as Duc Anh</p>
+          </div>
+        </article>
+
+        <article class="hero__slide" data-slide aria-hidden="true">
+          <img class="hero__image hero__image--cover" src="assets/hatsune-miku-cover.png" alt="Hatsune Miku performing in a bright futuristic city">
+          <div class="hero__veil" aria-hidden="true"></div>
+          <div class="shell hero__content hero__content--center">
+            <h2>Little 22621</h2>
+            <p class="hero__lead">Building, learning, and sharing one project at a time.</p>
+            <a class="button button--primary hero__repository" href="#about">Get to know the site <span aria-hidden="true">&darr;</span></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="shell hero__footer">
+        <span class="hero__counter" aria-live="polite"><span data-slider-current>01</span><span class="hero__counter-line"></span><span>02</span></span>
+        <div class="slider-controls" aria-label="Hero slides">
+          <button class="icon-button" type="button" data-slider-prev aria-label="Previous slide" title="Previous slide">&larr;</button>
+          <div class="slider-dots">
+            <button class="slider-dot is-active" type="button" data-slider-dot="0" aria-label="Show slide 1" aria-current="true"></button>
+            <button class="slider-dot" type="button" data-slider-dot="1" aria-label="Show slide 2" aria-current="false"></button>
+          </div>
+          <button class="icon-button" type="button" data-slider-next aria-label="Next slide" title="Next slide">&rarr;</button>
+          <button class="slider-pause" type="button" data-slider-toggle aria-label="Pause slideshow" title="Pause slideshow"><span aria-hidden="true">||</span></button>
+        </div>
+        <a class="scroll-cue" href="#about"><span class="scroll-cue__line" aria-hidden="true"></span> About Little 22621</a>
+      </div>
+    </section>
+
+    <section class="anime-about" id="about" aria-labelledby="about-title">
+      <div class="shell anime-about__grid">
+        <figure class="anime-about__art reveal">
+          <img class="anime-about__image" src="assets/tab1.png" alt="Phone settings screen with the profile name Duc Anh">
+          <figcaption class="anime-about__name" aria-hidden="true">Duc Anh</figcaption>
+        </figure>
+        <div class="anime-about__copy reveal">
+          <h2 id="about-title">Little 22621 <span aria-hidden="true">🥰</span></h2>
+          <h3>"Little" and "22621" meaning?</h3>
+          <hr>
+          <ul class="anime-about__facts">
+            <li class="reveal"><span aria-hidden="true">✔</span><p>"22621" actually stems from "34306" :)). It holds a lot of significance for me-primarily because I can create accounts and name my characters without a second thought; I just use "22621" or "Little 22621" and I'm all set. Any game featuring that name is mine-feel free to check for yourself.</p></li>
+            <li class="reveal"><span aria-hidden="true">✔</span><p> "Little" means "小" (xiǎo) mean young, it comes from a manga, where the main character named "小九" (Little Nine).
+
+</p></li>
+            <li class="reveal"><span aria-hidden="true">✔</span><p>I am currently a student at (FPT Polytechnic Hanoi, Vietnam).</p></li>
+            <li class="reveal"><span aria-hidden="true">✔</span><p>Some things are polished, and others are still teaching me something along the way.</p></li>
+            <li class="reveal"><span aria-hidden="true">✔</span><p>Have a question or an idea to share? Send a note from the contact page.</p></li>
+          </ul>
+          <div class="anime-about__links reveal">
+            <a href="contact.html">Get in touch</a>
+            <a href="contact.html">Share an idea</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-band" aria-label="Little 22621 thoughts">
+      <div class="shell quote-band__inner">
+        <div class="quote-slider" data-quote-slider aria-label="Rotating quotes">
+          <figure class="quote is-active" data-quote aria-hidden="false">
+            <blockquote>Chú giấu kĩ quá, anh chẳng biết gì cả.</blockquote>
+            <figcaption>- Paint Tùng MVP -</figcaption>
+          </figure>
+          <figure class="quote" data-quote aria-hidden="true">
+            <blockquote>Địt Mẹ Mày NM</blockquote>
+            <figcaption>- Little 22621 -</figcaption>
+          </figure>
+          <figure class="quote" data-quote aria-hidden="true">
+            <blockquote>Anh Yêu Em.</blockquote>
+            <figcaption>- Little 22621 -</figcaption>
+          </figure>
+          <figure class="quote" data-quote aria-hidden="true">
+            <blockquote>Phụ Nữ Là Để Yêu Thương.</blockquote>
+            <figcaption>- Little 22621 -</figcaption>
+          </figure>
+          <div class="quote-slider__controls">
+            <div class="quote-dots" role="group" aria-label="Choose a quote">
+              <button class="quote-dot is-active" type="button" data-quote-dot="0" aria-label="Show quote 1" aria-current="true"></button>
+              <button class="quote-dot" type="button" data-quote-dot="1" aria-label="Show quote 2" aria-current="false"></button>
+              <button class="quote-dot" type="button" data-quote-dot="2" aria-label="Show quote 3" aria-current="false"></button>
+              <button class="quote-dot" type="button" data-quote-dot="3" aria-label="Show quote 4" aria-current="false"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand"><a class="brand brand--footer" href="index.html"><span class="brand-mark" aria-hidden="true">l/</span><span class="brand-name">little<span>22621</span></span></a><p>A small corner for useful things.</p></div>
+      <div class="footer-column"><h2>Contact</h2><a href="contact.html">Say hello <span aria-hidden="true">&nearr;</span></a></div>
+      <div class="footer-column"><h2>Quick links</h2><a href="#about">About Little 22621</a><a href="#home">Back to the top</a></div>
+      <div class="footer-column"><h2>Explore</h2><a href="contact.html">Share an idea</a><a href="index.html">Home</a></div>
+    </div>
+    <div class="shell footer-bottom"><span>&copy; <span data-year></span> Little 22621. All rights reserved.</span><a class="back-to-top" href="#home">Back to top <span aria-hidden="true">&uarr;</span></a></div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
